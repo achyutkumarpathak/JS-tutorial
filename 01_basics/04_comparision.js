@@ -12,3 +12,4 @@ console.log(undefined <0)// false
 // === this operator check the values and datatypes also
 console.log("2"==2); // it check only values
 console.log("2"===2); // its checks values and datatypes both
+
