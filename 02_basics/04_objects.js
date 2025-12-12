@@ -55,3 +55,17 @@ console.log(Object.keys(tinderUser))// it return keys as array output
 console.log(Object.values(tinderUser))// it return values as array output
 console.log(Object.entries(tinderUser))// it return each key-value pairs as array format
 console.log(tinderUser.hasOwnProperty("id"))// it ensure that the following key exist or not
+
+// *************some more disscussion on objects*****
+
+const course= {
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"hiteshChoudhary"
+}
+// course.courseInstructor
+// const {courseInstructor}= course
+// console.log(courseInstructor)//hitesh
+
+const {courseInstructor:instructor}= course// here object destructuring occur by changing its name courseInstructor => instructor
+console.log(instructor)
