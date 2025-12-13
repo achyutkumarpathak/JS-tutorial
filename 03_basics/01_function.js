@@ -48,3 +48,38 @@ function loginusermessage(username="pathak"){// agar user name nhi bhejta h toh 
     return `${username} just logged in`
 }
 console.log(loginusermessage()) 
+
+// ***************************************
+
+function calculateCartPrice(...result)
+// ...result => is a rest operator. The rest operator (...) is used in function parameters to collect multiple arguments into a single array.
+{
+    return result
+}
+console.log(calculateCartPrice(100,200,300,400,500))
+
+
+// how we pass object as argument  to function
+
+const user = {
+    username:"achyut kumar pathak",
+    price:199
+}
+function handleobject(anyobject){
+    console.log(`Username is ${anyobject.username} and price will be${anyobject.price}`)
+}
+// handleobject(user)
+// another way of sending object to funtion
+handleobject({
+    username:"prem",
+    price:199
+})
+
+
+const newArray = [100,200,300,400]
+ 
+function returnsecondvalue(getarray){
+    return getarray[2]
+}
+console.log(returnsecondvalue(newArray))
+console.log(returnsecondvalue([100,200,300,400]))
