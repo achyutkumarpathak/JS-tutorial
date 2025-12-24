@@ -1,9 +1,9 @@
 const marvel_heroes= ["thor","ironman","spiderman"]
 const dc_heroes = ["superman","flash","batman"]
 
-// marvel_heroes.push(dc_heroes)// it make changes in marvel_heroes array not need to make new array for storing changes
-// console.log(marvel_heroes)
-// console.log(marvel_heroes[3][2])
+ marvel_heroes.push(dc_heroes)// it make changes in marvel_heroes array not need to make new array for storing changes
+ console.log(marvel_heroes)
+ console.log(marvel_heroes[3][2])
 
 const allheroes =marvel_heroes.concat(dc_heroes)// concat function return value in new array so we have to store before use it
 // console.log(allheroes)
