@@ -31,6 +31,9 @@ console.log(newarray)
 console.log( typeof newarray)
 
 
+// slice => it did not change the original array by slicing
+// splice => it change the original array by slicing
+
 const myArray02 = [0,1,2,3,4,5]
 console.log("A ",myArray02)
 const myn1 = myArray02.slice(1,3)
