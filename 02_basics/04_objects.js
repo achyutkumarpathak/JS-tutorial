@@ -1,7 +1,7 @@
 // In this we are going to declare objects using constructor
 
 const tinderUser = new Object()// this is a singleton  object
-const tinderUser01 = {}// this is a non-singleton objects
+const tinderUser01 = {}// this is singleton objects
 tinderUser.id = "123abc"
 tinderUser.name = "achyut"
 tinderUser.isLoggedIn = false
